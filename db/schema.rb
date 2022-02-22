@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 2022_02_11_223236) do
 
   create_table "companies", force: :cascade do |t|
+    #t.integer :id
     t.string "name"
     t.string "city"
     t.string "state"
